@@ -7,6 +7,7 @@
     "start": "serve -n -l 3000 ."
   },
   "dependencies": {
-    "serve": "^14.2.1"
+    "serve": "^14.2.1",
+    "sharp": "^0.34.5"
   }
 }
