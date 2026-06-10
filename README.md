@@ -9,17 +9,17 @@ Esta es una landing page estática responsiva preparada para deploy en Vercel si
 ├── styles.css
 ├── script.js
 └── assets/
-    ├── hero-mockup.webp
-    ├── pagina-1.webp
-    ├── pagina-2.webp
-    ├── pagina-3.webp
-    ├── pagina-4.webp
-    ├── pagina-5.webp
-    ├── bonus-1.webp
-    ├── bonus-2.webp
-    ├── bonus-3.webp
-    ├── plano-basico.webp
-    └── plano-completo.webp
+    ├── hero-mockup.png
+    ├── pagina-1.png
+    ├── pagina-2.png
+    ├── pagina-3.png
+    ├── pagina-4.png
+    ├── pagina-5.png
+    ├── bonus-1.png
+    ├── bonus-2.png
+    ├── bonus-3.png
+    ├── plano-basico.png
+    └── plano-completo.png
 ```
 
 ## Instrucciones para subir a Vercel
