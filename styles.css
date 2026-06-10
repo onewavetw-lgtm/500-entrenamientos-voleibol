@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.accordion-content.open {
+    max-height: 800px; /* Arbitrary large enough height */
+    opacity: 1;
+}
+
+.carousel-track {
+    display: flex;
+    animation: scroll 30s linear infinite;
+    width: max-content;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.placeholder-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

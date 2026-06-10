@@ -1,0 +1,12 @@
+{
+  "name": "voley-landing",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "serve -n -l 3000 .",
+    "build": "echo 'Static HTML, no build needed.'",
+    "start": "serve -n -l 3000 ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}

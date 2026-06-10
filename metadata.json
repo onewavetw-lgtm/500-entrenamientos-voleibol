@@ -1,0 +1,8 @@
+{
+  "name": "+500 Entrenamientos de Voleibol",
+  "description": "Oferta digital de ejercicios, planes y manuales para entrenadores de voleibol.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

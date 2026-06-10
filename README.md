@@ -1,11 +1,30 @@
-<div align="center">
+# Landing Page - Voleibol (+500 Entrenamientos)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Esta es una landing page estática lista para Vercel.
 
-  <h1>Built with AI Studio</h2>
+## Instrucciones para subir a Vercel
+1. Colocar todas las imágenes requeridas dentro de la carpeta `assets`.
+2. Mantener los nombres de los archivos exactamente iguales a los usados en `index.html`.
+3. Subir todos los archivos para tu propio repositorio de GitHub.
+4. En Vercel, iniciar sesión y hacer clic en **"Add New Project"**.
+5. Seleccionar tu repositorio importado desde GitHub.
+6. En la configuración del proyecto en Vercel:
+   - **Framework Preset**: Seleccionar `Other`
+   - **Build Command**: (dejar vacío)
+   - **Output Directory**: (dejar vacío o usar la raíz `/`)
+7. Hacer clic en **Deploy**.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Lista de Imágenes Necesarias (`assets/`)
+- `hero-mockup.png`
+- `exemplo-1.png`
+- `exemplo-2.png`
+- `exemplo-3.png`
+- `exemplo-4.png`
+- `exemplo-5.png`
+- `bonus-1.png`
+- `bonus-2.png`
+- `bonus-3.png`
+- `plan-basico.png`
+- `coach-carlos.png`
+- `coach-andrea.png`
+- `coach-martin.png`
