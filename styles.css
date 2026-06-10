@@ -40,16 +40,19 @@ body {
     100% { transform: translateX(-50%); }
 }
 
-.placeholder-img {
-    display: flex;
+.image-fallback {
+    width: 100%;
+    min-height: 260px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #071b3a, #0f6bff);
+    color: white;
+    display: none;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1e293b, #0f172a);
-    color: white;
-    font-weight: bold;
     text-align: center;
-    padding: 20px;
-    border-radius: 0.5rem;
+    padding: 24px;
+    font-weight: 800;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.18);
 }
 
 img {

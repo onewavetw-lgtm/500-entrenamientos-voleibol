@@ -61,8 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
         img.addEventListener('error', function() {
             this.style.display = 'none';
             const placeholder = document.createElement('div');
-            placeholder.className = this.className + ' placeholder-img';
-            placeholder.innerHTML = '<span>+500 Entrenamientos de Voleibol</span>';
+            placeholder.className = 'image-fallback';
+            placeholder.style.display = 'flex';
+            placeholder.innerHTML = '<span>🏆 +500 Entrenamientos de Voleibol</span>';
             this.parentNode.insertBefore(placeholder, this);
         });
     });
